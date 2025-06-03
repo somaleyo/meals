@@ -14,7 +14,7 @@ import Home from './Pages/Home'
 
 function App() {
   return (
-    <Router>
+    
       <Routes>
         <Route path="/see" element={<See />} />
         <Route path="/pasta" element={<Pasta />} />
@@ -24,7 +24,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/recipe/:id" element={<Detail />} />
       </Routes>
-    </Router>
+   
   )
 }
 
