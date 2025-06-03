@@ -1,0 +1,63 @@
+.meal-card{
+    position: relative;
+    
+}
+
+.meal-info{
+    position: absolute;
+     background: linear-gradient(#b39f02,rgba(128, 128, 128, 0.673));
+     width: 300px;
+     height: 300px;
+     top: 0%;
+     color:white;
+     justify-content: center;
+     align-items: center;
+     display: none;
+     text-align: center;
+     flex-direction: column;
+     border-radius: 10px;
+     gap: 15px;
+     font-weight: bold  ;
+     transition: 1s ease;
+}
+
+.meal-image{
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px 3px rgb(90, 61, 61);
+}
+.meal-card:hover{
+    .meal-info{
+        display: flex ;
+    }
+}
+.meals-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    margin-left:50px;
+    margin-right: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    justify-content: center;
+  max-width: 1400px;
+   
+   
+}
+
+h1{
+    text-align: center;
+    margin-top:30px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding:15px;
+    border-radius: 15px;
+}
+.btn:hover{
+    opacity: 0.9;
+}

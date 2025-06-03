@@ -1,0 +1,58 @@
+.header-text h3{
+ font-size: 25px;
+ font-weight: 400;
+
+ 
+}
+.header-text{
+     justify-content: center;
+ align-items: center;
+ display: flex;
+ margin-top: 20px;
+
+}
+.demo {
+    width: 350px;
+    height: 300px;
+    border-radius: 15px;
+     box-shadow: 0px 0px 12px 3px rgb(90, 61, 61);
+}
+.card-home{
+  
+width: 350px;
+height: 300px;
+}
+.images-holder{
+    display: flex;
+    flex-direction: row;
+    gap:35px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card-home:hover{
+    position: relative;
+      .home-info{
+        display: flex;
+    }
+}
+.home-info{
+        position: absolute;
+     background: linear-gradient(#b6a318,rgba(128, 128, 128, 0.673));
+     width: 350px;
+     height: 300px;
+     top: 0%;
+     color:white;
+     justify-content: center;
+     align-items: center;
+     display: none;
+     text-align: center;
+     flex-direction: column;
+     border-radius: 10px;
+     gap: 15px;
+     font-weight: bold  ;
+
+
+}
