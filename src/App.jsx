@@ -16,7 +16,7 @@ function App() {
   return (
     
       <Routes>
-        <Route path="/see" element={<See />} />
+        <Route path="/sea" element={<See />} />
         <Route path="/pasta" element={<Pasta />} />
         <Route path="/beef" element={<Beef />} />
         <Route path="/" element={<Home />} />

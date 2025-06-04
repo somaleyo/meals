@@ -25,8 +25,8 @@ export default function Home(params) {
                 <div className="card-home">
                 <img src={seefood} className="demo" alt="" />
                 <div className="home-info">
-                    <h3>SeeFood</h3>
-                    <Link to={"/see"} className="btn link">Voir la carte</Link>
+                    <h3>SeaFood</h3>
+                    <Link to={"/sea"} className="btn link">Voir la carte</Link>
                 </div>
                 </div>
                

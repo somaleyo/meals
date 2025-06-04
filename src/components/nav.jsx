@@ -12,7 +12,7 @@ export default function Nav(props) {
                 </div>
                 <div className="ancres">
                     <Link to={"/"} className='link'><p className='ancre'>Home</p></Link>
-                    <Link to={"/see"} className='link'><p className='ancre'>Seefood</p></Link>
+                    <Link to={"/sea"} className='link'><p className='ancre'>Seafood</p></Link>
                     <Link to={"/beef"} className='link'><p className='ancre'>Beef</p></Link>
                     <Link to={"/pasta"} className='link'><p className='ancre'>Pates</p></Link>
                 </div>
